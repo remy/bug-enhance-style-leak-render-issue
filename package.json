@@ -31,7 +31,6 @@
   "dependencies": {
     "@enhance/arc-plugin-enhance": "^6.2.3",
     "@enhance/custom-element": "^1.1.0",
-    "@enhance/element": "^1.1.2",
     "@enhance/morphdom-mixin": "^1.1.0",
     "@enhance/styles-cribsheet": "^0.0.9"
   }
