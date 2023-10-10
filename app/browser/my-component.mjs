@@ -1,8 +1,9 @@
 /* global document, customElements */
+import MorphdomMixin from "@enhance/morphdom-mixin"
 import CustomElement from "@enhance/custom-element"
 import MyComponentTemplate from "../elements/my-component.mjs"
 
-class MyComponent extends CustomElement {
+class MyComponent extends MorphdomMixin(CustomElement) {
   constructor() {
     super()
   }
@@ -20,10 +21,6 @@ class MyComponent extends CustomElement {
 
   change = (e) => {
     this.setAttribute('selected', e.target.value)
-  }
-
-  selectedChanged(value) {
-    this.strong.innerText = value
   }
 
   render(args) {

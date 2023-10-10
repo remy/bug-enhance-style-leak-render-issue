@@ -10,31 +10,31 @@ export default function MyComponent({ html, state }) {
     <div>
       <p>Which best describes your site:</p>
       <ul>
-        <li>
+        <li id="feed">
           <label>
             <input name="type" value="feed" type="radio" />
             <span>I have an RSS feed</span>
           </label>
         </li>
-        <li>
+        <li id="url">
           <label>
             <input name="type" value="url" type="radio" />
             <span>I have my latest post on my homepage</span>
           </label>
         </li>
-        <li>
+        <li id="cli">
           <label>
-            <input name="type" value="cli" type="radio" />
+            <input id="cli-input" name="type" value="cli" type="radio" />
             <span>I prefer to run command line tools</span>
           </label>
         </li>
-        <li>
+        <li id="cli2">
           <label>
             <input name="type" value="cli" type="radio" />
             <span>I don't want to rely on 3rd party services</span>
           </label>
         </li>
-        <li>
+        <li id="complicated">
           <label>
             <input name="type" value="complicated" type="radio" />
             <span
@@ -43,7 +43,7 @@ export default function MyComponent({ html, state }) {
             >
           </label>
         </li>
-        <li>
+        <li id="docs">
           <label>
             <input name="type" value="docs" type="radio" />
             <span>None of this matches me</span>
