@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "^6.2.3",
-    "@enhance/element": "^1.1.2",
+    "@enhance/element": "^1.2.0",
     "@enhance/styles-cribsheet": "^0.0.9"
   }
 }
