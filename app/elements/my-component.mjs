@@ -2,8 +2,9 @@ export default function MyComponent({ html, state }) {
   const { attrs = {} } = state;
   const { selected = "nothing yet" } = attrs;
 
-  return html` <style>
-      ul {
+  return html`
+    <style>
+      :host > ul {
         list-style: none;
       }
     </style>
